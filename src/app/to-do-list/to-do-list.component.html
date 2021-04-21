@@ -2,10 +2,10 @@
 <h2 class="todocenter">Part2 Homework</h2>
 <h2>My tasks today</h2>
 
-<form (ngSubmit)="addTask(task.value)">
+<form (submit)="addTask(task.value)">
   <div>
     <label for="task">Tasks:</label>
-    <input type="text" #task placeholder="Add you tasks" />
+    <input type="text" #task placeholder="Add your tasks" />
   </div>
 </form>
 <ul>
